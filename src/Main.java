@@ -104,6 +104,22 @@ public static class MyArray {
         }
     }
 
+    public class LetsTry {
+        int[] arr = new int[10];
+
+
+        public static void MyTry(int[] arr) {
+            int i = 0;
+            try {
+                arr[i] = arr[i++];
+            }
+            catch (Exception e) {
+                throw e;
+            }
+        }
+    }
+
+
     public static void main(String[] args) {
         System.out.println(conc("hi", "nice to meet you"));
     }
